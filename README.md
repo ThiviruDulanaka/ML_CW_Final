@@ -1,50 +1,48 @@
-# CM2604 Machine Learning: Bank Term Deposit Subscription Prediction
+# CM2604 Machine Learning: Bank Term Deposit Prediction
 
-This repository contains the individual coursework submission for the **CM2604 Machine Learning** module at Robert Gordon University.
+This project is a coursework submission for the **CM2604 Machine Learning** module at Robert Gordon University.
 
-The project focuses on a classification problem: predicting whether a client will subscribe to a term deposit based on the 'Bank Marketing' dataset. [cite_start]The implementation is governed by Git as required[cite: 15, 24].
+The primary goal is to address a classification problem: **predicting whether a bank client will subscribe to a term deposit** based on a "Bank Marketing" dataset.
 
-## Coursework Information
+This repository contains all the necessary code, notebooks, and documentation for the project.
 
-| Detail | Information |
-| --- | --- |
-| **University** | [cite_start]Robert Gordon University [cite: 1] |
-| **Module** | [cite_start]CM2604 Machine Learning [cite: 4] |
-| **Module Coordinator** | [cite_start]Sahan Priyanayana [cite: 4] |
-| **Assessment** | [cite_start]Coursework (Individual) [cite: 4] |
-| **Academic Year** | [cite_start]2024/2025 [cite: 4] |
-| **Deadline** | [cite_start]29th July 2025 23:59 Hrs [cite: 4] |
+## Project Objective
 
-## 🎯 Project Objective
-
-[cite_start]The primary goal is to build and evaluate two machine learning models to solve a classification problem: **Predicting if a client will subscribe to a term deposit**[cite: 15].
-
-* [cite_start]**Dataset:** 'Bank Marketing' dataset from the UCI Machine Learning Repository[cite: 16].
-* **Models Required:**
-    1.  [cite_start]Decision Tree Algorithm [cite: 17]
-    2.  [cite_start]Neural Network [cite: 17]
-
-[cite_start]The project follows the full machine learning pipeline, from data preparation to model comparison[cite: 19, 21].
+The project involves the complete machine learning pipeline to solve this classification task. The core requirements are:
+* **Dataset:** Use the [Bank Marketing Dataset from the UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/222/bank+marketing).
+* **Models:** Implement and compare two different machine learning models:
+    1.  A **Decision Tree** algorithm
+    2.  A **Neural Network**
+* **Evaluation:** Use appropriate evaluation metrics to compare the performance of both models and determine the most effective approach.
 
 ## Methodology
 
-[cite_start]The project implementation is structured around the key grading criteria outlined in the assessment brief[cite: 45].
+The project is broken down into four key stages, following the assessment criteria:
 
-### 1. Corpus Preparation (20%)
-* [cite_start]Loading the 'Bank Marketing' dataset[cite: 16].
-* [cite_start]Applying optimal strategies for data cleaning, preprocessing, and feature engineering to prepare the dataset for the models[cite: 19]. [cite_start]This satisfies Learning Outcome 1[cite: 8].
+### 1. Corpus Preparation
+This stage involves all Data Preprocessing and Feature Engineering steps.
+* Loading the dataset.
+* Cleaning the data (handling missing values, duplicates, etc.).
+* Encoding categorical features (e.g., 'job', 'marital', 'education').
+* Scaling numerical features to prepare them for the models, especially the Neural Network.
+* Splitting the data into training and testing sets.
 
-### 2. Implementation (30%)
-* [cite_start]Building two distinct classification models using appropriate libraries and frameworks[cite: 20].
-    * [cite_start]**Model 1:** Decision Tree [cite: 17]
-    * [cite_start]**Model 2:** Neural Network [cite: 17]
+### 2. Implementation
+This stage involves building the two required models.
+* **Model 1 (Decision Tree):** A baseline Decision Tree classifier is built and tuned.
+* **Model 2 (Neural Network):** A sequential Neural Network is designed, compiled, and trained to fit the classification problem.
 
-### 3. Experiments (25%)
-* [cite_start]Designing and running experiments for both models[cite: 22].
-* [cite_start]Comparing the implemented models using optimal evaluation metrics suitable for the classification task[cite: 21]. [cite_start]This contributes to Learning Outcome 2[cite: 9].
+### 3. Experiments
+This stage focuses on training, testing, and evaluating the models.
+* Experimental settings for both models are defined.
+* Models are trained on the prepared training data.
+* Performance is measured on the unseen test data using optimal evaluation metrics (e.g., Accuracy, Precision, Recall, F1-Score, and ROC-AUC).
 
-### 4. Discussion (25%)
-* [cite_start]Showcasing and analyzing the experimental results[cite: 22].
-* [cite_start]A full discussion of the findings, model comparison, solution methodology, limitations, and potential future enhancements is included in the final report[cite: 24].
+### 4. Discussion
+The results from the experiments are analyzed and presented in the final project report. This includes:
+* A direct comparison of the Decision Tree and Neural Network performance.
+* A discussion on the solution methodology.
+* An analysis of any limitations encountered.
+* Suggestions for possible future enhancements to the models.
 
 ## 📂 Repository Structure
